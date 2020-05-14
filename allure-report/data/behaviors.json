@@ -1,0 +1,78 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "门店--首页",
+    "children" : [ {
+      "name" : "门店评论",
+      "children" : [ {
+        "name" : "评论分类展示--全部",
+        "uid" : "7b20820b718f4ffb",
+        "parentUid" : "fb96ebc262647ee8d52c25bc3e48b3d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589176337379,
+          "stop" : 1589176337709,
+          "duration" : 330
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示--好评",
+        "uid" : "9f472dddec6ae41a",
+        "parentUid" : "fb96ebc262647ee8d52c25bc3e48b3d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589176337720,
+          "stop" : 1589176337998,
+          "duration" : 278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示--差评",
+        "uid" : "43734c0ac421a77a",
+        "parentUid" : "fb96ebc262647ee8d52c25bc3e48b3d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589176338011,
+          "stop" : 1589176338273,
+          "duration" : 262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示--有图",
+        "uid" : "19cfacc19ee1ab6e",
+        "parentUid" : "fb96ebc262647ee8d52c25bc3e48b3d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589176338280,
+          "stop" : 1589176338524,
+          "duration" : 244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "门店评分计分规则",
+        "uid" : "f2b5a268b4b971e9",
+        "parentUid" : "fb96ebc262647ee8d52c25bc3e48b3d6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589176338531,
+          "stop" : 1589176338837,
+          "duration" : 306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb96ebc262647ee8d52c25bc3e48b3d6"
+    } ],
+    "uid" : "5117338583df48a40a92680529c598fd"
+  } ]
+}

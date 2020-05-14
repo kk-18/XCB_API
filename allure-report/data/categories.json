@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 0 == 1",
+      "children" : [ {
+        "name" : "门店评分计分规则",
+        "uid" : "f2b5a268b4b971e9",
+        "parentUid" : "4aa308f7dbecae29a058295957a40c45",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589176338531,
+          "stop" : 1589176338837,
+          "duration" : 306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4aa308f7dbecae29a058295957a40c45"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

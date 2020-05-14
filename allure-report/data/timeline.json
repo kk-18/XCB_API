@@ -1,0 +1,328 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "AutocareAi-PC",
+    "children" : [ {
+      "name" : "13116-MainThread",
+      "children" : [ {
+        "name" : "评论分类展示--有图",
+        "uid" : "b80cd9b67493825a",
+        "parentUid" : "7f3aa45b2357d88590345b7c2f3a9970",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589169438906,
+          "stop" : 1589169439150,
+          "duration" : 244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示--好评",
+        "uid" : "4f855bff1e9132f9",
+        "parentUid" : "7f3aa45b2357d88590345b7c2f3a9970",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589169438421,
+          "stop" : 1589169438669,
+          "duration" : 248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示--全部",
+        "uid" : "8c94d753abcda0bd",
+        "parentUid" : "7f3aa45b2357d88590345b7c2f3a9970",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589169438148,
+          "stop" : 1589169438411,
+          "duration" : 263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示--差评",
+        "uid" : "6f3a94a2f2863244",
+        "parentUid" : "7f3aa45b2357d88590345b7c2f3a9970",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589169438677,
+          "stop" : 1589169438899,
+          "duration" : 222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7f3aa45b2357d88590345b7c2f3a9970"
+    }, {
+      "name" : "13132-MainThread",
+      "children" : [ {
+        "name" : "评论分类展示--差评",
+        "uid" : "43734c0ac421a77a",
+        "parentUid" : "e563bc75c1b5f60c4d1752af92051842",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589176338011,
+          "stop" : 1589176338273,
+          "duration" : 262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示--有图",
+        "uid" : "19cfacc19ee1ab6e",
+        "parentUid" : "e563bc75c1b5f60c4d1752af92051842",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589176338280,
+          "stop" : 1589176338524,
+          "duration" : 244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示--好评",
+        "uid" : "9f472dddec6ae41a",
+        "parentUid" : "e563bc75c1b5f60c4d1752af92051842",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589176337720,
+          "stop" : 1589176337998,
+          "duration" : 278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "门店评分计分规则",
+        "uid" : "f2b5a268b4b971e9",
+        "parentUid" : "e563bc75c1b5f60c4d1752af92051842",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589176338531,
+          "stop" : 1589176338837,
+          "duration" : 306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示--全部",
+        "uid" : "7b20820b718f4ffb",
+        "parentUid" : "e563bc75c1b5f60c4d1752af92051842",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589176337379,
+          "stop" : 1589176337709,
+          "duration" : 330
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e563bc75c1b5f60c4d1752af92051842"
+    }, {
+      "name" : "12832-MainThread",
+      "children" : [ {
+        "name" : "评论分类展示",
+        "uid" : "5972a3f4c59ffc73",
+        "parentUid" : "16a8af997d865a2f3be824cdac49de57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589169167627,
+          "stop" : 1589169167903,
+          "duration" : 276
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示",
+        "uid" : "b3c385d8b6050037",
+        "parentUid" : "16a8af997d865a2f3be824cdac49de57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589169167348,
+          "stop" : 1589169167623,
+          "duration" : 275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示",
+        "uid" : "bfcafdf611edeec9",
+        "parentUid" : "16a8af997d865a2f3be824cdac49de57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589169167058,
+          "stop" : 1589169167344,
+          "duration" : 286
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示",
+        "uid" : "f41861f45b291f77",
+        "parentUid" : "16a8af997d865a2f3be824cdac49de57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589169166786,
+          "stop" : 1589169167055,
+          "duration" : 269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "16a8af997d865a2f3be824cdac49de57"
+    }, {
+      "name" : "15172-MainThread",
+      "children" : [ {
+        "name" : "评论分类展示--全部",
+        "uid" : "7d57ff1900711781",
+        "parentUid" : "70c6a8c48b0470674021a62740cab5e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589176156392,
+          "stop" : 1589176156660,
+          "duration" : 268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "门店评分计分规则",
+        "uid" : "ef0c79557c18cbdc",
+        "parentUid" : "70c6a8c48b0470674021a62740cab5e8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589176157495,
+          "stop" : 1589176157786,
+          "duration" : 291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示--好评",
+        "uid" : "6903147cde4a4d2f",
+        "parentUid" : "70c6a8c48b0470674021a62740cab5e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589176156667,
+          "stop" : 1589176156964,
+          "duration" : 297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示--差评",
+        "uid" : "9ec3ec96b40f6ba1",
+        "parentUid" : "70c6a8c48b0470674021a62740cab5e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589176156971,
+          "stop" : 1589176157242,
+          "duration" : 271
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示--有图",
+        "uid" : "3f8bf8fb11f5efb1",
+        "parentUid" : "70c6a8c48b0470674021a62740cab5e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589176157246,
+          "stop" : 1589176157490,
+          "duration" : 244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "70c6a8c48b0470674021a62740cab5e8"
+    }, {
+      "name" : "6736-MainThread",
+      "children" : [ {
+        "name" : "门店评分计分规则",
+        "uid" : "673fd63d7c9f903f",
+        "parentUid" : "86feebfeb3e9a1912b6974cbfc8c3ece",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589169916525,
+          "stop" : 1589169916839,
+          "duration" : 314
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示--有图",
+        "uid" : "1b51d39a89cfaafd",
+        "parentUid" : "86feebfeb3e9a1912b6974cbfc8c3ece",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589169916224,
+          "stop" : 1589169916515,
+          "duration" : 291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示--差评",
+        "uid" : "ca3d7763e8a16444",
+        "parentUid" : "86feebfeb3e9a1912b6974cbfc8c3ece",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589169915921,
+          "stop" : 1589169916215,
+          "duration" : 294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示--好评",
+        "uid" : "b89e614d2998a9da",
+        "parentUid" : "86feebfeb3e9a1912b6974cbfc8c3ece",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589169915621,
+          "stop" : 1589169915918,
+          "duration" : 297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示--全部",
+        "uid" : "64822591845fa4ef",
+        "parentUid" : "86feebfeb3e9a1912b6974cbfc8c3ece",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589169915316,
+          "stop" : 1589169915619,
+          "duration" : 303
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86feebfeb3e9a1912b6974cbfc8c3ece"
+    } ],
+    "uid" : "57f8e6e53d7f821d3e0d1f39d1c999cf"
+  } ]
+}

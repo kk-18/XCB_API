@@ -1,0 +1,16 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon May 11 13:52:17 CST 2020","Mon May 11 13:52:17 CST 2020","330","testsuits.APP.shop_fistpage","test_comment","","","","评论分类展示--全部","
+    用例描述：全部评论
+    "
+"passed","Mon May 11 13:52:18 CST 2020","Mon May 11 13:52:18 CST 2020","262","testsuits.APP.shop_fistpage","test_comment","","","","评论分类展示--差评","
+    用例描述：差评
+    "
+"passed","Mon May 11 13:52:18 CST 2020","Mon May 11 13:52:18 CST 2020","244","testsuits.APP.shop_fistpage","test_comment","","","","评论分类展示--有图","
+    用例描述：有图
+    "
+"failed","Mon May 11 13:52:18 CST 2020","Mon May 11 13:52:18 CST 2020","306","testsuits.APP.shop_fistpage","test_comment","","","","门店评分计分规则","
+    用例描述： 累计评分综合/点评次数
+    "
+"passed","Mon May 11 13:52:17 CST 2020","Mon May 11 13:52:17 CST 2020","278","testsuits.APP.shop_fistpage","test_comment","","","","评论分类展示--好评","
+    用例描述：好评
+    "

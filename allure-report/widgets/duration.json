@@ -1,0 +1,51 @@
+[ {
+  "uid" : "7b20820b718f4ffb",
+  "name" : "评论分类展示--全部",
+  "time" : {
+    "start" : 1589176337379,
+    "stop" : 1589176337709,
+    "duration" : 330
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43734c0ac421a77a",
+  "name" : "评论分类展示--差评",
+  "time" : {
+    "start" : 1589176338011,
+    "stop" : 1589176338273,
+    "duration" : 262
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19cfacc19ee1ab6e",
+  "name" : "评论分类展示--有图",
+  "time" : {
+    "start" : 1589176338280,
+    "stop" : 1589176338524,
+    "duration" : 244
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2b5a268b4b971e9",
+  "name" : "门店评分计分规则",
+  "time" : {
+    "start" : 1589176338531,
+    "stop" : 1589176338837,
+    "duration" : 306
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f472dddec6ae41a",
+  "name" : "评论分类展示--好评",
+  "time" : {
+    "start" : 1589176337720,
+    "stop" : 1589176337998,
+    "duration" : 278
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

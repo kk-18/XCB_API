@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testsuits.APP.shop_fistpage.test_comment",
+    "children" : [ {
+      "name" : "评论分类展示--全部",
+      "uid" : "7b20820b718f4ffb",
+      "parentUid" : "6307d38a852d2a66ad79f3b0e494448c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589176337379,
+        "stop" : 1589176337709,
+        "duration" : 330
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "评论分类展示--好评",
+      "uid" : "9f472dddec6ae41a",
+      "parentUid" : "6307d38a852d2a66ad79f3b0e494448c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589176337720,
+        "stop" : 1589176337998,
+        "duration" : 278
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "评论分类展示--差评",
+      "uid" : "43734c0ac421a77a",
+      "parentUid" : "6307d38a852d2a66ad79f3b0e494448c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589176338011,
+        "stop" : 1589176338273,
+        "duration" : 262
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "评论分类展示--有图",
+      "uid" : "19cfacc19ee1ab6e",
+      "parentUid" : "6307d38a852d2a66ad79f3b0e494448c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589176338280,
+        "stop" : 1589176338524,
+        "duration" : 244
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "门店评分计分规则",
+      "uid" : "f2b5a268b4b971e9",
+      "parentUid" : "6307d38a852d2a66ad79f3b0e494448c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1589176338531,
+        "stop" : 1589176338837,
+        "duration" : 306
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testsuits.APP.shop_fistpage.test_comment"
+  } ]
+}
