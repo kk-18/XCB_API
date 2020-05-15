@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7c0381d-ce29-493d-8bfb-4c5477a5d37a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testsuits/APP/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testsuits/APP/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testsuits/APP/test_A004.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testsuits/APP/test_A005.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testsuits/APP/test_A006.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testsuits/APP/test_A007.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testsuits/APP/test_A008.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testsuits/APP/test_A009.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testsuits/APP/test_A010.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testsuits/APP/test_A011.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/const/check_level.py" beforeDir="false" afterPath="$PROJECT_DIR$/const/check_level.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,61 +36,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Web_API_Auto_Test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testsuits/APP" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\python\XCB_API\testsuits\APP" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\python\XCB_API\testsuits\APP" />
       <recent name="E:\python\XCB_API\testsuits\APP\shop_fistpage" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python\XCB_API\testsuits\APP" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.conftest">
-    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="XCB_API" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testsuits/APP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testsuits/APP/conftest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="xcb_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="XCB_API" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/const" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/const/xcb_code.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test_A011.test_case_1">
     <configuration default="true" type="tests" factoryName="py.test">
       <module name="XCB_API" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,7 +64,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_A003.test_case_general_4" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_A008.test_case_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="XCB_API" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,11 +75,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_A003.test_case_general_4&quot;" />
+      <option name="_new_target" value="&quot;test_A008.test_case_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_A004.test_case_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_A009.test_case_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="XCB_API" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,11 +90,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_A004.test_case_1&quot;" />
+      <option name="_new_target" value="&quot;test_A009.test_case_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_A004.test_case_general_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_A009.test_case_2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="XCB_API" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,11 +105,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_A004.test_case_general_1&quot;" />
+      <option name="_new_target" value="&quot;test_A009.test_case_2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for testsuits.APP.test_A001.test_case_general_6" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_A010.test_case_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="XCB_API" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,7 +120,22 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testsuits.APP.test_A001.test_case_general_6&quot;" />
+      <option name="_new_target" value="&quot;test_A010.test_case_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_A011.test_case_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="XCB_API" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\mysoftware\python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_A011.test_case_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -178,19 +156,19 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.pytest in test_comment.py" />
-      <item itemvalue="Python.xcb_code" />
-      <item itemvalue="Python tests.pytest for test_A003.test_case_general_4" />
-      <item itemvalue="Python tests.pytest for test_A004.test_case_general_1" />
-      <item itemvalue="Python tests.pytest for test_A004.test_case_1" />
-      <item itemvalue="Python.conftest" />
+      <item itemvalue="Python tests.pytest for test_A008.test_case_1" />
+      <item itemvalue="Python tests.pytest for test_A009.test_case_1" />
+      <item itemvalue="Python tests.pytest for test_A009.test_case_2" />
+      <item itemvalue="Python tests.pytest for test_A010.test_case_1" />
+      <item itemvalue="Python tests.pytest for test_A011.test_case_1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.conftest" />
-        <item itemvalue="Python tests.pytest for test_A004.test_case_1" />
-        <item itemvalue="Python tests.pytest for test_A004.test_case_general_1" />
-        <item itemvalue="Python tests.pytest for test_A003.test_case_general_4" />
-        <item itemvalue="Python.xcb_code" />
+        <item itemvalue="Python tests.pytest for test_A011.test_case_1" />
+        <item itemvalue="Python tests.pytest for test_A010.test_case_1" />
+        <item itemvalue="Python tests.pytest for test_A009.test_case_2" />
+        <item itemvalue="Python tests.pytest for test_A009.test_case_1" />
+        <item itemvalue="Python tests.pytest for test_A008.test_case_1" />
       </list>
     </recent_temporary>
   </component>
@@ -224,6 +202,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589176723160" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1589524313480">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589524313480" />
+    <state x="391" y="0" key="#pytest_for_test_A005.test_case_1" timestamp="1589522919027">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="0" key="#pytest_for_test_A005.test_case_1/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589522919027" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1589179675209">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -232,38 +218,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589442974206" />
-    <state width="1345" height="299" key="GridCell.Tab.0.bottom" timestamp="1589450124194">
+    <state width="1345" height="290" key="GridCell.Tab.0.bottom" timestamp="1589531234807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="299" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589450124194" />
-    <state width="1345" height="299" key="GridCell.Tab.0.center" timestamp="1589450124194">
+    <state width="1345" height="290" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589531234807" />
+    <state width="1345" height="290" key="GridCell.Tab.0.center" timestamp="1589531234807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="299" key="GridCell.Tab.0.center/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589450124194" />
-    <state width="1345" height="299" key="GridCell.Tab.0.left" timestamp="1589450124193">
+    <state width="1345" height="290" key="GridCell.Tab.0.center/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589531234807" />
+    <state width="1345" height="290" key="GridCell.Tab.0.left" timestamp="1589531234807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="299" key="GridCell.Tab.0.left/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589450124193" />
-    <state width="1345" height="299" key="GridCell.Tab.0.right" timestamp="1589450124194">
+    <state width="1345" height="290" key="GridCell.Tab.0.left/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589531234807" />
+    <state width="1345" height="290" key="GridCell.Tab.0.right" timestamp="1589531234807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="299" key="GridCell.Tab.0.right/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589450124194" />
-    <state width="1345" height="290" key="GridCell.Tab.1.bottom" timestamp="1589450100933">
+    <state width="1345" height="290" key="GridCell.Tab.0.right/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589531234807" />
+    <state width="1345" height="290" key="GridCell.Tab.1.bottom" timestamp="1589531239174">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="290" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589450100933" />
-    <state width="1345" height="290" key="GridCell.Tab.1.center" timestamp="1589450100932">
+    <state width="1345" height="290" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589531239174" />
+    <state width="1345" height="290" key="GridCell.Tab.1.center" timestamp="1589531239174">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="290" key="GridCell.Tab.1.center/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589450100932" />
-    <state width="1345" height="290" key="GridCell.Tab.1.left" timestamp="1589450100932">
+    <state width="1345" height="290" key="GridCell.Tab.1.center/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589531239174" />
+    <state width="1345" height="290" key="GridCell.Tab.1.left" timestamp="1589531239174">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="290" key="GridCell.Tab.1.left/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589450100932" />
-    <state width="1345" height="290" key="GridCell.Tab.1.right" timestamp="1589450100933">
+    <state width="1345" height="290" key="GridCell.Tab.1.left/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589531239174" />
+    <state width="1345" height="290" key="GridCell.Tab.1.right" timestamp="1589531239174">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="290" key="GridCell.Tab.1.right/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589450100933" />
+    <state width="1345" height="290" key="GridCell.Tab.1.right/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589531239174" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1589176631234">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -272,14 +258,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589176810517" />
-    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1589435526486">
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1589512399873">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589435526486" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589443311307">
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589512399873" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589525165360">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589443311307" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589525165360" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -288,6 +274,11 @@
           <url>file://$PROJECT_DIR$/testsuits/APP/test_A004.py</url>
           <line>27</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testsuits/APP/test_A011.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
