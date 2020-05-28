@@ -28,17 +28,19 @@ def test_case_general_1():
     headers["token"] = check_level.TOKEN_APP
 
     body ={
+          "addr": "四川省成都市锦江区秀丽东方生态文化景区",
           "amount": 1,
           "c_name": "深云智能",
           "cid": 63,
           "name": "测试-1",
          # "parking_type": 0,
           "phone": "18408251193",
-          "plate_no": "川A1123B",
+          "plate_no": "川A1157Z",
+          "series": "帕萨特",
           "services": [
             {
               "num":1,
-              "price_id": 140
+              "price_id": 298
             }
           ],
           "shop": "深云智能·银泰城店",

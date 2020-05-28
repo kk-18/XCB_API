@@ -11,7 +11,7 @@ class XCBResponse:
         j = resp.json()
         self.code = j['code']
         self.msg = j['message']
-        if self.code == 0:
+        if self.code == 0 and 'data' in j:
             self.data = j['data']
             #self.data = json.loads(self.data)
 

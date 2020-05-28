@@ -16,13 +16,13 @@ xcb_request = XCBRequest('app')
 
 def test_case_1(ordernew_type0):
     """
-    用例描述：微信支付
+    用例描述：支付宝支付
     """
     headers={}
     headers["token"] = check_level.TOKEN_APP
     body ={
             "order_id": ordernew_type0,
-            "pay_mode": 0
+            "pay_mode": 1
         }
 
     resp = xcb_request.post(api, data=body,headers=headers)

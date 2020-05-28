@@ -5,8 +5,8 @@ from const import check_level
 
 
 
-api = '/api/v1.0/index/shop/{sid}/services'
-api_name = '007-获取门店服务信息'
+api = '/api/v1.0/index/shop/{sid}/vips'
+api_name = '008-门店会员列表信息'
 xcb_request = XCBRequest('app')
 
 

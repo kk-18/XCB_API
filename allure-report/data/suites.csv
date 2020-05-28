@@ -1,16 +1,88 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon May 11 13:52:17 CST 2020","Mon May 11 13:52:17 CST 2020","330","testsuits.APP.shop_fistpage","test_comment","","","","评论分类展示--全部","
-    用例描述：全部评论
+"failed","Wed May 27 14:33:08 CST 2020","Wed May 27 14:33:08 CST 2020","279","testsuits.APP","test_A012","","","","托管待支付订单存钥匙开箱","
+    用例描述：托管待支付订单存钥匙开箱
     "
-"passed","Mon May 11 13:52:18 CST 2020","Mon May 11 13:52:18 CST 2020","262","testsuits.APP.shop_fistpage","test_comment","","","","评论分类展示--差评","
-    用例描述：差评
+"passed","Mon May 11 13:52:17 CST 2020","Mon May 11 13:52:17 CST 2020","278","testsuits.APP.shop_fistpage","test_comment","","","","评论分类展示--好评","
+    用例描述：好评
+    "
+"passed","Wed May 27 14:33:06 CST 2020","Wed May 27 14:33:06 CST 2020","254","testsuits.APP","test_A005","","","","门店信息","
+    用例描述：门店信息
     "
 "passed","Mon May 11 13:52:18 CST 2020","Mon May 11 13:52:18 CST 2020","244","testsuits.APP.shop_fistpage","test_comment","","","","评论分类展示--有图","
     用例描述：有图
     "
+"passed","Mon May 11 13:52:18 CST 2020","Mon May 11 13:52:18 CST 2020","262","testsuits.APP.shop_fistpage","test_comment","","","","评论分类展示--差评","
+    用例描述：差评
+    "
+"failed","Wed May 27 14:33:07 CST 2020","Wed May 27 14:33:07 CST 2020","242","testsuits.APP","test_A010","","","","门店下服务信息","
+    用例描述：店铺列表
+    "
+"passed","Wed May 27 14:33:01 CST 2020","Wed May 27 14:33:01 CST 2020","239","testsuits.APP","test_A001","","","","评论分类展示--全部","
+    用例描述：全部评论
+    "
+"passed","Wed May 27 14:33:01 CST 2020","Wed May 27 14:33:02 CST 2020","255","testsuits.APP","test_A001","","","","评论分类展示--差评","
+    用例描述：差评
+    "
+"passed","Wed May 27 14:33:03 CST 2020","Wed May 27 14:33:03 CST 2020","618","testsuits.APP","test_A003","","","","新增订单--托管养车必录项","
+    用例描述：基本必录项全录入
+    "
+"passed","Wed May 27 14:33:04 CST 2020","Wed May 27 14:33:04 CST 2020","270","testsuits.APP","test_A003","","","","新增订单--总金额错误","
+    用例描述：总金额与服务项金额总和不等
+    "
+"passed","Wed May 27 14:33:10 CST 2020","Wed May 27 14:33:10 CST 2020","268","testsuits.APP","test_A016","","","","获取用户信息","
+    用例描述：用户信息
+    "
+"passed","Wed May 27 14:33:09 CST 2020","Wed May 27 14:33:10 CST 2020","287","testsuits.APP","test_A015","","","","获取用户信息","
+    用例描述：用户信息
+    "
+"failed","Wed May 27 14:33:02 CST 2020","Wed May 27 14:33:02 CST 2020","315","testsuits.APP","test_A002","","","","评论新增---仅点星","
+    用例描述：全部评论
+    "
+"passed","Wed May 27 14:33:05 CST 2020","Wed May 27 14:33:05 CST 2020","273","testsuits.APP","test_A003","","","","新增订单--车牌号为空","
+    用例描述：用户车牌号为空
+    "
+"failed","Wed May 27 14:33:05 CST 2020","Wed May 27 14:33:06 CST 2020","275","testsuits.APP","test_A004","","","","支付订单","
+    用例描述：支付宝支付
+    "
+"passed","Wed May 27 14:33:06 CST 2020","Wed May 27 14:33:07 CST 2020","322","testsuits.APP","test_A007","","","","门店下服务信息","
+    用例描述：门店服务信息
+    "
+"passed","Wed May 27 14:33:04 CST 2020","Wed May 27 14:33:05 CST 2020","289","testsuits.APP","test_A003","","","","新增订单--联系人电话为空","
+    用例描述：用户联系电话为空
+    "
 "failed","Mon May 11 13:52:18 CST 2020","Mon May 11 13:52:18 CST 2020","306","testsuits.APP.shop_fistpage","test_comment","","","","门店评分计分规则","
     用例描述： 累计评分综合/点评次数
     "
-"passed","Mon May 11 13:52:17 CST 2020","Mon May 11 13:52:17 CST 2020","278","testsuits.APP.shop_fistpage","test_comment","","","","评论分类展示--好评","
+"passed","Mon May 11 13:52:17 CST 2020","Mon May 11 13:52:17 CST 2020","330","testsuits.APP.shop_fistpage","test_comment","","","","评论分类展示--全部","
+    用例描述：全部评论
+    "
+"passed","Wed May 27 14:33:07 CST 2020","Wed May 27 14:33:07 CST 2020","292","testsuits.APP","test_A009","","","","门店下服务信息","
+    用例描述：店铺列表
+    "
+"passed","Wed May 27 14:33:02 CST 2020","Wed May 27 14:33:02 CST 2020","271","testsuits.APP","test_A001","","","","评论分类展示--有图","
+    用例描述：有图
+    "
+"passed","Wed May 27 14:33:03 CST 2020","Wed May 27 14:33:04 CST 2020","687","testsuits.APP","test_A003","","","","新增订单--预约到店必录项","
+    用例描述：基本必录项全录入
+    "
+"passed","Wed May 27 14:33:09 CST 2020","Wed May 27 14:33:09 CST 2020","286","testsuits.APP","test_A013","","","","取消预约养车订单","
+    用例描述：预约养车订单--未支付---未过期
+    "
+"passed","Wed May 27 14:33:01 CST 2020","Wed May 27 14:33:01 CST 2020","232","testsuits.APP","test_A001","","","","评论分类展示--好评","
     用例描述：好评
+    "
+"passed","Wed May 27 14:33:07 CST 2020","Wed May 27 14:33:08 CST 2020","241","testsuits.APP","test_A011","","","","订单列表--未完成","
+    用例描述：订单列表--未完成
+    "
+"failed","Wed May 27 14:33:09 CST 2020","Wed May 27 14:33:09 CST 2020","263","testsuits.APP","test_A014","","","","扫码开箱--多个订单","
+    用例描述：托管养车订单--未支付---待存钥匙状态
+    "
+"passed","Wed May 27 14:33:02 CST 2020","Wed May 27 14:33:02 CST 2020","309","testsuits.APP","test_A001","","","","门店评论展示顺序规则","
+    用例描述： 用户点评时间倒序
+    "
+"passed","Wed May 27 14:33:07 CST 2020","Wed May 27 14:33:07 CST 2020","267","testsuits.APP","test_A008","","","","门店下服务信息","
+    用例描述：门店服务信息
+    "
+"passed","Wed May 27 14:33:06 CST 2020","Wed May 27 14:33:06 CST 2020","313","testsuits.APP","test_A006","","","","门店智能柜列表信息","
+    用例描述：门店信息
     "

@@ -1,0 +1,61 @@
+{
+  "uid" : "cd27f65f3b407b22",
+  "name" : "订单列表--未完成",
+  "fullName" : "testsuits.APP.test_A011#test_case_1",
+  "historyId" : "3d1cbad39c36223b6d84727f5867f0af",
+  "time" : {
+    "start" : 1590561187841,
+    "stop" : 1590561188082,
+    "duration" : 241
+  },
+  "description" : "\n    用例描述：订单列表--未完成\n    ",
+  "descriptionHtml" : "<pre><code>用例描述：订单列表--未完成\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "011-获取订单列表"
+  }, {
+    "name" : "feature",
+    "value" : "订单"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testsuits.APP"
+  }, {
+    "name" : "suite",
+    "value" : "test_A011"
+  }, {
+    "name" : "host",
+    "value" : "AutocareAi-PC"
+  }, {
+    "name" : "thread",
+    "value" : "11280-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testsuits.APP.test_A011"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd27f65f3b407b22.json",
+  "parameterValues" : [ ]
+}

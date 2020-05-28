@@ -1,13 +1,46 @@
 {
-  "total" : 1,
+  "total" : 4,
   "items" : [ {
+    "uid" : "d962578f1628fd121a6a499c1022f809",
+    "name" : "订单",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
     "uid" : "5117338583df48a40a92680529c598fd",
     "name" : "门店--首页",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "be3faa5d50fdcce78198f69bf75c7612",
+    "name" : "门店首页",
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "7258674445abb64e276300c48aefc613",
+    "name" : "我的",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }

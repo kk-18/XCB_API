@@ -4,7 +4,7 @@ from utils.xcb_req import XCBRequest
 xcb_request = XCBRequest('app')
 def Get_token():
     headers = {
-        'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1ODg4NDg1ODEsImp0aSI6IjIyIiwic3ViIjoie1wiYWxpX3VpZFwiOlwiMjA4ODExMjcxMTUxMTQ4NFwiLFwib3BlbmlkXCI6XCJcIixcInBob25lXCI6XCIxODA4MTk0MDgxOVwifSJ9.1dr2U_tKrVePNSP8T8Krrd6Gia0m1AVqrnlTknCUykA',
+        'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1OTA0ODQwNTAsImp0aSI6IjI3Iiwic3ViIjoie1wiYWxpX3VpZFwiOlwiXCIsXCJvcGVuaWRcIjpcIm85WG1nNGdRVm9mMmZ0ZzFFZWdacDdNU256RFlcIixcInBob25lXCI6XCIxODQwODI1MTE5M1wifSJ9.FfluM7SrEA-seQ1GPqNIvPSTUd1q1nIf6mvBKrPbEdE',
     }
     api = '/api/v1.0/token'
     resp = xcb_request.put(api, headers=headers)

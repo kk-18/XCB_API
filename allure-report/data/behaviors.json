@@ -7,7 +7,7 @@
       "name" : "门店评论",
       "children" : [ {
         "name" : "评论分类展示--全部",
-        "uid" : "7b20820b718f4ffb",
+        "uid" : "64702e5f3a6843f2",
         "parentUid" : "fb96ebc262647ee8d52c25bc3e48b3d6",
         "status" : "passed",
         "time" : {
@@ -20,7 +20,7 @@
         "parameters" : [ ]
       }, {
         "name" : "评论分类展示--好评",
-        "uid" : "9f472dddec6ae41a",
+        "uid" : "c280e04af6c12211",
         "parentUid" : "fb96ebc262647ee8d52c25bc3e48b3d6",
         "status" : "passed",
         "time" : {
@@ -33,7 +33,7 @@
         "parameters" : [ ]
       }, {
         "name" : "评论分类展示--差评",
-        "uid" : "43734c0ac421a77a",
+        "uid" : "3e45327fe5dce326",
         "parentUid" : "fb96ebc262647ee8d52c25bc3e48b3d6",
         "status" : "passed",
         "time" : {
@@ -46,7 +46,7 @@
         "parameters" : [ ]
       }, {
         "name" : "评论分类展示--有图",
-        "uid" : "19cfacc19ee1ab6e",
+        "uid" : "88144ce1d0c12aa5",
         "parentUid" : "fb96ebc262647ee8d52c25bc3e48b3d6",
         "status" : "passed",
         "time" : {
@@ -59,7 +59,7 @@
         "parameters" : [ ]
       }, {
         "name" : "门店评分计分规则",
-        "uid" : "f2b5a268b4b971e9",
+        "uid" : "a22c728e1aa976ab",
         "parentUid" : "fb96ebc262647ee8d52c25bc3e48b3d6",
         "status" : "failed",
         "time" : {
@@ -72,7 +72,391 @@
         "parameters" : [ ]
       } ],
       "uid" : "fb96ebc262647ee8d52c25bc3e48b3d6"
+    }, {
+      "name" : "001-获取门店评论列表",
+      "children" : [ {
+        "name" : "评论分类展示--全部",
+        "uid" : "f92f46f7aa442062",
+        "parentUid" : "ec8477d1695b743d94810dd4f7827859",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590561181286,
+          "stop" : 1590561181525,
+          "duration" : 239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示--好评",
+        "uid" : "2893e0146b77f909",
+        "parentUid" : "ec8477d1695b743d94810dd4f7827859",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590561181544,
+          "stop" : 1590561181776,
+          "duration" : 232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示--差评",
+        "uid" : "c110dc1dd8c627e1",
+        "parentUid" : "ec8477d1695b743d94810dd4f7827859",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590561181780,
+          "stop" : 1590561182035,
+          "duration" : 255
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "评论分类展示--有图",
+        "uid" : "1accc14920fef05a",
+        "parentUid" : "ec8477d1695b743d94810dd4f7827859",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590561182040,
+          "stop" : 1590561182311,
+          "duration" : 271
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "门店评论展示顺序规则",
+        "uid" : "f3ec655ef34721b1",
+        "parentUid" : "ec8477d1695b743d94810dd4f7827859",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590561182323,
+          "stop" : 1590561182632,
+          "duration" : 309
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec8477d1695b743d94810dd4f7827859"
+    }, {
+      "name" : "002-新增评论",
+      "children" : [ {
+        "name" : "评论新增---仅点星",
+        "uid" : "dd0a2655c02095b3",
+        "parentUid" : "378fc37a9e466dd112078b99cc86de59",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590561182644,
+          "stop" : 1590561182959,
+          "duration" : 315
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "378fc37a9e466dd112078b99cc86de59"
     } ],
     "uid" : "5117338583df48a40a92680529c598fd"
+  }, {
+    "name" : "订单",
+    "children" : [ {
+      "name" : "002-新增订单",
+      "children" : [ {
+        "name" : "新增订单--托管养车必录项",
+        "uid" : "f2442dbb9c1ab98",
+        "parentUid" : "6c4edd58ee681a7e34b64d8ee9243f98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590561183223,
+          "stop" : 1590561183841,
+          "duration" : 618
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增订单--预约到店必录项",
+        "uid" : "14e3fa418f1957bf",
+        "parentUid" : "6c4edd58ee681a7e34b64d8ee9243f98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590561183860,
+          "stop" : 1590561184547,
+          "duration" : 687
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增订单--总金额错误",
+        "uid" : "15b5fd7a67af0f08",
+        "parentUid" : "6c4edd58ee681a7e34b64d8ee9243f98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590561184555,
+          "stop" : 1590561184825,
+          "duration" : 270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增订单--联系人电话为空",
+        "uid" : "9fc78d7bbba7cf55",
+        "parentUid" : "6c4edd58ee681a7e34b64d8ee9243f98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590561184833,
+          "stop" : 1590561185122,
+          "duration" : 289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增订单--车牌号为空",
+        "uid" : "500569298c2ca164",
+        "parentUid" : "6c4edd58ee681a7e34b64d8ee9243f98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590561185136,
+          "stop" : 1590561185409,
+          "duration" : 273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6c4edd58ee681a7e34b64d8ee9243f98"
+    }, {
+      "name" : "004-支付订单",
+      "children" : [ {
+        "name" : "支付订单",
+        "uid" : "b54d8a6735164c90",
+        "parentUid" : "5560f2cb23345c5d3dda21a7965a119a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590561185808,
+          "stop" : 1590561186083,
+          "duration" : 275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5560f2cb23345c5d3dda21a7965a119a"
+    }, {
+      "name" : "011-获取订单列表",
+      "children" : [ {
+        "name" : "订单列表--未完成",
+        "uid" : "cd27f65f3b407b22",
+        "parentUid" : "c79ed2022cebd3bb49feaacc90662085",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590561187841,
+          "stop" : 1590561188082,
+          "duration" : 241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c79ed2022cebd3bb49feaacc90662085"
+    }, {
+      "name" : "012-选择订单开箱",
+      "children" : [ {
+        "name" : "托管待支付订单存钥匙开箱",
+        "uid" : "3d4bfd02b71cf9e6",
+        "parentUid" : "c91ac72e56ed9c39160b80db50e7cf13",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590561188452,
+          "stop" : 1590561188731,
+          "duration" : 279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c91ac72e56ed9c39160b80db50e7cf13"
+    }, {
+      "name" : "013-取消订单",
+      "children" : [ {
+        "name" : "取消预约养车订单",
+        "uid" : "2df8b9fe918ae197",
+        "parentUid" : "3e26838c99eadd8f9fcf5be79339411e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590561189155,
+          "stop" : 1590561189441,
+          "duration" : 286
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3e26838c99eadd8f9fcf5be79339411e"
+    }, {
+      "name" : "014-扫码开箱",
+      "children" : [ {
+        "name" : "扫码开箱--多个订单",
+        "uid" : "61494004d7ea13dd",
+        "parentUid" : "d3cabfddf7d7bf78de18329b6f60e79c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590561189444,
+          "stop" : 1590561189707,
+          "duration" : 263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d3cabfddf7d7bf78de18329b6f60e79c"
+    } ],
+    "uid" : "d962578f1628fd121a6a499c1022f809"
+  }, {
+    "name" : "门店首页",
+    "children" : [ {
+      "name" : "005-获取门店信息",
+      "children" : [ {
+        "name" : "门店信息",
+        "uid" : "de879598cabc0f25",
+        "parentUid" : "f12659e63fa2f2eecc4870ccac0298e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590561186100,
+          "stop" : 1590561186354,
+          "duration" : 254
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f12659e63fa2f2eecc4870ccac0298e9"
+    }, {
+      "name" : "006-获取门店下智能柜信息",
+      "children" : [ {
+        "name" : "门店智能柜列表信息",
+        "uid" : "72cb2f5170d6ed44",
+        "parentUid" : "2123ee3fec78a8169b9ccaef16483dd7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590561186363,
+          "stop" : 1590561186676,
+          "duration" : 313
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2123ee3fec78a8169b9ccaef16483dd7"
+    }, {
+      "name" : "007-获取门店服务信息",
+      "children" : [ {
+        "name" : "门店下服务信息",
+        "uid" : "ad574aed0e597fb2",
+        "parentUid" : "8e0013bf756b2b9cb25b16a4208c384a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590561186690,
+          "stop" : 1590561187012,
+          "duration" : 322
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e0013bf756b2b9cb25b16a4208c384a"
+    }, {
+      "name" : "008-门店会员列表信息",
+      "children" : [ {
+        "name" : "门店下服务信息",
+        "uid" : "b41bd565fd420bf",
+        "parentUid" : "5ff736df77f1df09f3980930a783dfc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590561187015,
+          "stop" : 1590561187282,
+          "duration" : 267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5ff736df77f1df09f3980930a783dfc8"
+    }, {
+      "name" : "009-获取店铺列表",
+      "children" : [ {
+        "name" : "门店下服务信息",
+        "uid" : "d51981dd507d8838",
+        "parentUid" : "31f91941bf7c0cf29643965db9c11557",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590561187286,
+          "stop" : 1590561187578,
+          "duration" : 292
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31f91941bf7c0cf29643965db9c11557"
+    }, {
+      "name" : "010-订单详情",
+      "children" : [ {
+        "name" : "门店下服务信息",
+        "uid" : "a89a94c61f1a3209",
+        "parentUid" : "fbf7e63d66de554109e1564c1f47af71",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590561187582,
+          "stop" : 1590561187824,
+          "duration" : 242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fbf7e63d66de554109e1564c1f47af71"
+    } ],
+    "uid" : "be3faa5d50fdcce78198f69bf75c7612"
+  }, {
+    "name" : "我的",
+    "children" : [ {
+      "name" : "015-获取用户昵称",
+      "children" : [ {
+        "name" : "获取用户信息",
+        "uid" : "1e7f1a7c7f3d29a9",
+        "parentUid" : "07ec6fb21a5e1eb14655978554233f8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590561189730,
+          "stop" : 1590561190017,
+          "duration" : 287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取用户信息",
+        "uid" : "edef07f430fb5aa0",
+        "parentUid" : "07ec6fb21a5e1eb14655978554233f8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590561190036,
+          "stop" : 1590561190304,
+          "duration" : 268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "07ec6fb21a5e1eb14655978554233f8b"
+    } ],
+    "uid" : "7258674445abb64e276300c48aefc613"
   } ]
 }
