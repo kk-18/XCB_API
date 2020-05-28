@@ -1,7 +1,7 @@
 import pymysql
 
 class SQLclient:
-    def sqlclient(self,sql):
+    def sql_client(self,sql):
        #打开数据库连接
         conn=pymysql.connect(host='114.116.136.190',user='root',password='a175a9c176',port=13306)
         #使用cursor()方法创建一个游标对象cursor
@@ -16,5 +16,5 @@ class SQLclient:
 sql="""
  select id from db_xcb.t_order where uid=22
 """
-sss=SQLclient().sqlclient(sql)
+sss=SQLclient().sql_client(sql)
 print(sss)

@@ -1,35 +1,5 @@
 [ {
-  "uid" : "3d4bfd02b71cf9e6",
-  "name" : "托管待支付订单存钥匙开箱",
-  "time" : {
-    "start" : 1590561188452,
-    "stop" : 1590561188731,
-    "duration" : 279
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "c280e04af6c12211",
-  "name" : "评论分类展示--好评",
-  "time" : {
-    "start" : 1589176337720,
-    "stop" : 1589176337998,
-    "duration" : 278
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "de879598cabc0f25",
-  "name" : "门店信息",
-  "time" : {
-    "start" : 1590561186100,
-    "stop" : 1590561186354,
-    "duration" : 254
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "88144ce1d0c12aa5",
+  "uid" : "3f4095e481006f2d",
   "name" : "评论分类展示--有图",
   "time" : {
     "start" : 1589176338280,
@@ -39,137 +9,37 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3e45327fe5dce326",
-  "name" : "评论分类展示--差评",
+  "uid" : "bc73d99506499019",
+  "name" : "获取车辆列表",
   "time" : {
-    "start" : 1589176338011,
-    "stop" : 1589176338273,
-    "duration" : 262
+    "start" : 1590635061121,
+    "stop" : 1590635061393,
+    "duration" : 272
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a89a94c61f1a3209",
-  "name" : "门店下服务信息",
-  "time" : {
-    "start" : 1590561187582,
-    "stop" : 1590561187824,
-    "duration" : 242
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f92f46f7aa442062",
-  "name" : "评论分类展示--全部",
-  "time" : {
-    "start" : 1590561181286,
-    "stop" : 1590561181525,
-    "duration" : 239
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c110dc1dd8c627e1",
-  "name" : "评论分类展示--差评",
-  "time" : {
-    "start" : 1590561181780,
-    "stop" : 1590561182035,
-    "duration" : 255
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f2442dbb9c1ab98",
-  "name" : "新增订单--托管养车必录项",
-  "time" : {
-    "start" : 1590561183223,
-    "stop" : 1590561183841,
-    "duration" : 618
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "15b5fd7a67af0f08",
-  "name" : "新增订单--总金额错误",
-  "time" : {
-    "start" : 1590561184555,
-    "stop" : 1590561184825,
-    "duration" : 270
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "edef07f430fb5aa0",
-  "name" : "获取用户信息",
-  "time" : {
-    "start" : 1590561190036,
-    "stop" : 1590561190304,
-    "duration" : 268
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1e7f1a7c7f3d29a9",
-  "name" : "获取用户信息",
-  "time" : {
-    "start" : 1590561189730,
-    "stop" : 1590561190017,
-    "duration" : 287
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dd0a2655c02095b3",
+  "uid" : "4e5b5a159cf8ee34",
   "name" : "评论新增---仅点星",
   "time" : {
-    "start" : 1590561182644,
-    "stop" : 1590561182959,
-    "duration" : 315
+    "start" : 1590635053467,
+    "stop" : 1590635053738,
+    "duration" : 271
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "500569298c2ca164",
-  "name" : "新增订单--车牌号为空",
+  "uid" : "a1c02f67a41c6033",
+  "name" : "门店评论展示顺序规则",
   "time" : {
-    "start" : 1590561185136,
-    "stop" : 1590561185409,
-    "duration" : 273
+    "start" : 1590635053242,
+    "stop" : 1590635053464,
+    "duration" : 222
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b54d8a6735164c90",
-  "name" : "支付订单",
-  "time" : {
-    "start" : 1590561185808,
-    "stop" : 1590561186083,
-    "duration" : 275
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "ad574aed0e597fb2",
-  "name" : "门店下服务信息",
-  "time" : {
-    "start" : 1590561186690,
-    "stop" : 1590561187012,
-    "duration" : 322
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9fc78d7bbba7cf55",
-  "name" : "新增订单--联系人电话为空",
-  "time" : {
-    "start" : 1590561184833,
-    "stop" : 1590561185122,
-    "duration" : 289
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a22c728e1aa976ab",
+  "uid" : "fba1a3ace6525f0d",
   "name" : "门店评分计分规则",
   "time" : {
     "start" : 1589176338531,
@@ -179,7 +49,77 @@
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "64702e5f3a6843f2",
+  "uid" : "984e4cceb09ab1bd",
+  "name" : "评论分类展示--差评",
+  "time" : {
+    "start" : 1590635052743,
+    "stop" : 1590635052986,
+    "duration" : 243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "548ca1c1629607e0",
+  "name" : "支付订单",
+  "time" : {
+    "start" : 1590635056263,
+    "stop" : 1590635056555,
+    "duration" : 292
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "72d1a3aa8f163fa5",
+  "name" : "评论分类展示--有图",
+  "time" : {
+    "start" : 1590635052990,
+    "stop" : 1590635053238,
+    "duration" : 248
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f3bdc7bb7643374",
+  "name" : "取消预约养车订单",
+  "time" : {
+    "start" : 1590635059909,
+    "stop" : 1590635060257,
+    "duration" : 348
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67a80db859924012",
+  "name" : "新增订单--托管养车必录项",
+  "time" : {
+    "start" : 1590635054015,
+    "stop" : 1590635054588,
+    "duration" : 573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb90245fb818f912",
+  "name" : "门店下服务信息",
+  "time" : {
+    "start" : 1590635057151,
+    "stop" : 1590635057452,
+    "duration" : 301
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a739a3783f0e88ba",
+  "name" : "评论分类展示--好评",
+  "time" : {
+    "start" : 1589176337720,
+    "stop" : 1589176337998,
+    "duration" : 278
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1a8ff3a0fbd93d0",
   "name" : "评论分类展示--全部",
   "time" : {
     "start" : 1589176337379,
@@ -189,102 +129,192 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d51981dd507d8838",
-  "name" : "门店下服务信息",
+  "uid" : "971781775ab3d308",
+  "name" : "新增订单--联系人电话为空",
   "time" : {
-    "start" : 1590561187286,
-    "stop" : 1590561187578,
-    "duration" : 292
+    "start" : 1590635055390,
+    "stop" : 1590635055637,
+    "duration" : 247
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1accc14920fef05a",
-  "name" : "评论分类展示--有图",
+  "uid" : "44409d25168061ba",
+  "name" : "行驶证加车--必录项",
   "time" : {
-    "start" : 1590561182040,
-    "stop" : 1590561182311,
-    "duration" : 271
+    "start" : 1590635065678,
+    "stop" : 1590635065953,
+    "duration" : 275
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "18287feb910b08c4",
+  "name" : "普通加车--必录项",
+  "time" : {
+    "start" : 1590635061404,
+    "stop" : 1590635065672,
+    "duration" : 4268
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "14e3fa418f1957bf",
-  "name" : "新增订单--预约到店必录项",
+  "uid" : "aa9349e1a27cd86c",
+  "name" : "获取用户信息",
   "time" : {
-    "start" : 1590561183860,
-    "stop" : 1590561184547,
-    "duration" : 687
+    "start" : 1590635060851,
+    "stop" : 1590635061112,
+    "duration" : 261
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2df8b9fe918ae197",
-  "name" : "取消预约养车订单",
+  "uid" : "20bf58c8a055d09e",
+  "name" : "新增订单--总金额错误",
   "time" : {
-    "start" : 1590561189155,
-    "stop" : 1590561189441,
-    "duration" : 286
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2893e0146b77f909",
-  "name" : "评论分类展示--好评",
-  "time" : {
-    "start" : 1590561181544,
-    "stop" : 1590561181776,
-    "duration" : 232
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cd27f65f3b407b22",
-  "name" : "订单列表--未完成",
-  "time" : {
-    "start" : 1590561187841,
-    "stop" : 1590561188082,
-    "duration" : 241
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "61494004d7ea13dd",
-  "name" : "扫码开箱--多个订单",
-  "time" : {
-    "start" : 1590561189444,
-    "stop" : 1590561189707,
-    "duration" : 263
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f3ec655ef34721b1",
-  "name" : "门店评论展示顺序规则",
-  "time" : {
-    "start" : 1590561182323,
-    "stop" : 1590561182632,
-    "duration" : 309
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b41bd565fd420bf",
-  "name" : "门店下服务信息",
-  "time" : {
-    "start" : 1590561187015,
-    "stop" : 1590561187282,
+    "start" : 1590635055120,
+    "stop" : 1590635055387,
     "duration" : 267
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "72cb2f5170d6ed44",
+  "uid" : "62bd1ea7aa2f824f",
+  "name" : "新增订单--预约到店必录项",
+  "time" : {
+    "start" : 1590635054598,
+    "stop" : 1590635055111,
+    "duration" : 513
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce508e73dfe1e81f",
+  "name" : "评论分类展示--差评",
+  "time" : {
+    "start" : 1589176338011,
+    "stop" : 1589176338273,
+    "duration" : 262
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0bb735b6c710019",
+  "name" : "门店下服务信息",
+  "time" : {
+    "start" : 1590635057758,
+    "stop" : 1590635058093,
+    "duration" : 335
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f13e5e9d2e7dea77",
+  "name" : "扫码开箱--多个订单",
+  "time" : {
+    "start" : 1590635060265,
+    "stop" : 1590635060549,
+    "duration" : 284
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "474d53f6038e6fb6",
+  "name" : "新增订单--车牌号为空",
+  "time" : {
+    "start" : 1590635055645,
+    "stop" : 1590635055913,
+    "duration" : 268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "add795606c041e77",
+  "name" : "托管待支付订单存钥匙开箱",
+  "time" : {
+    "start" : 1590635059134,
+    "stop" : 1590635059394,
+    "duration" : 260
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "974ac04b34cef39f",
+  "name" : "评论分类展示--好评",
+  "time" : {
+    "start" : 1590635052478,
+    "stop" : 1590635052735,
+    "duration" : 257
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc6eb5b8c674df9c",
+  "name" : "订单列表--未完成",
+  "time" : {
+    "start" : 1590635058427,
+    "stop" : 1590635058743,
+    "duration" : 316
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a681c732cf3ac72f",
+  "name" : "门店下服务信息",
+  "time" : {
+    "start" : 1590635057457,
+    "stop" : 1590635057743,
+    "duration" : 286
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9164b8965c61a14",
+  "name" : "获取用户信息",
+  "time" : {
+    "start" : 1590635060568,
+    "stop" : 1590635060838,
+    "duration" : 270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70c4fdabd1954625",
+  "name" : "评论分类展示--全部",
+  "time" : {
+    "start" : 1590635052234,
+    "stop" : 1590635052470,
+    "duration" : 236
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac35e5edd0f85da4",
+  "name" : "门店信息",
+  "time" : {
+    "start" : 1590635056586,
+    "stop" : 1590635056864,
+    "duration" : 278
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e035d5b64698e1d6",
+  "name" : "门店下服务信息",
+  "time" : {
+    "start" : 1590635058103,
+    "stop" : 1590635058396,
+    "duration" : 293
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad50881254e4ae86",
   "name" : "门店智能柜列表信息",
   "time" : {
-    "start" : 1590561186363,
-    "stop" : 1590561186676,
-    "duration" : 313
+    "start" : 1590635056880,
+    "stop" : 1590635057145,
+    "duration" : 265
   },
   "status" : "passed",
   "severity" : "normal"

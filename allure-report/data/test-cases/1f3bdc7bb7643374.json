@@ -1,0 +1,84 @@
+{
+  "uid" : "1f3bdc7bb7643374",
+  "name" : "取消预约养车订单",
+  "fullName" : "testsuits.APP.test_A013#test_case_1",
+  "historyId" : "34284c4839d8412bfd0cbf94364721e0",
+  "time" : {
+    "start" : 1590635059909,
+    "stop" : 1590635060257,
+    "duration" : 348
+  },
+  "description" : "\n    用例描述：预约养车订单--未支付---未过期\n    ",
+  "descriptionHtml" : "<pre><code>用例描述：预约养车订单--未支付---未过期\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "ordernew_type1",
+    "time" : {
+      "start" : 1590635059422,
+      "stop" : 1590635059906,
+      "duration" : 484
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "订单"
+  }, {
+    "name" : "story",
+    "value" : "013-取消订单"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testsuits.APP"
+  }, {
+    "name" : "suite",
+    "value" : "test_A013"
+  }, {
+    "name" : "host",
+    "value" : "AutocareAi-PC"
+  }, {
+    "name" : "thread",
+    "value" : "10844-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testsuits.APP.test_A013"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "85a7b5b26349399a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590561189155,
+        "stop" : 1590561189441,
+        "duration" : 286
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f3bdc7bb7643374.json",
+  "parameterValues" : [ ]
+}

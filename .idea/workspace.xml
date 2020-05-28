@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7c0381d-ce29-493d-8bfb-4c5477a5d37a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testsuits/APP/test_A012.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testsuits/APP/test_A013.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testsuits/APP/test_A014.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testsuits/APP/test_A015.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testsuits/APP/test_A016.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testsuits/APP/test_A017.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testsuits/APP/test_A018.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testsuits/APP/test_A019.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/sqlclient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/esclient.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/behaviors.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/behaviors.json" afterDir="false" />
@@ -19,29 +11,53 @@
       <change beforePath="$PROJECT_DIR$/allure-report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/packages.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/suites.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/19cfacc19ee1ab6e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/1b51d39a89cfaafd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/3f8bf8fb11f5efb1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/43734c0ac421a77a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/4f855bff1e9132f9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/5972a3f4c59ffc73.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/64822591845fa4ef.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/673fd63d7c9f903f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/6903147cde4a4d2f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/6f3a94a2f2863244.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/7b20820b718f4ffb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/7d57ff1900711781.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/8c94d753abcda0bd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/9ec3ec96b40f6ba1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/9f472dddec6ae41a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/b3c385d8b6050037.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/b80cd9b67493825a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/b89e614d2998a9da.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/bfcafdf611edeec9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/ca3d7763e8a16444.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/ef0c79557c18cbdc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/f2b5a268b4b971e9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/f41861f45b291f77.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/1061c6d962b13f7d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/14e3fa418f1957bf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/15b5fd7a67af0f08.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/1accc14920fef05a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/1e7f1a7c7f3d29a9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/2893e0146b77f909.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/2df8b9fe918ae197.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/328be31ec963d5f2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/332c29333bcdb149.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/3d4bfd02b71cf9e6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/3e45327fe5dce326.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/4a84f95cfa0d2786.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/500569298c2ca164.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/61494004d7ea13dd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/64702e5f3a6843f2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/6b36a36b33197dc4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/7241005414ce704e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/72cb2f5170d6ed44.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/827c956720702937.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/88144ce1d0c12aa5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/8c108244830127fd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/8eb1306a9edf00a1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/9fc78d7bbba7cf55.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/a22c728e1aa976ab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/a56f52a746dc0290.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/a89a94c61f1a3209.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/ad574aed0e597fb2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/b41bd565fd420bf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/b4cddae3f8520ecd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/b54d8a6735164c90.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/b61f5540b4216862.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/c110dc1dd8c627e1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/c280e04af6c12211.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/c6309a532d1a1d50.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/c7609cd64e6756ef.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/cd27f65f3b407b22.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/d51981dd507d8838.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/dd0a2655c02095b3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/de879598cabc0f25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/e289036969a84c90.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/e35d9e8aaee22725.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/e76f1a17c0550f38.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/edef07f430fb5aa0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/f2442dbb9c1ab98.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/f3ec655ef34721b1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/f92f46f7aa442062.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/fd51462040ddc47.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/timeline.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" afterDir="false" />
@@ -61,13 +77,11 @@
       <change beforePath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/suites.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsuits/APP/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testsuits/APP/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsuits/APP/test_A003.py" beforeDir="false" afterPath="$PROJECT_DIR$/testsuits/APP/test_A003.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/setting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testsuits/APP/test_A002.py" beforeDir="false" afterPath="$PROJECT_DIR$/testsuits/APP/test_A002.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testsuits/APP/test_A004.py" beforeDir="false" afterPath="$PROJECT_DIR$/testsuits/APP/test_A004.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsuits/APP/test_A008.py" beforeDir="false" afterPath="$PROJECT_DIR$/testsuits/APP/test_A008.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testsuits/APP/test_A010.py" beforeDir="false" afterPath="$PROJECT_DIR$/testsuits/APP/test_A010.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/GET_token.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/GET_token.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/xcb_req.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/xcb_req.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/sqlclient.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/sqlclient.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +108,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/testsuits/APP" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -105,7 +119,28 @@
       <recent name="E:\python\XCB_API\testsuits\APP" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_A018.test_case_1">
+  <component name="RunManager" selected="Python.esclient">
+    <configuration name="esclient" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="XCB_API" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/esclient.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="XCB_API" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,27 +154,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sqlclient" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="XCB_API" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/sqlclient.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,7 +177,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_A014.test_case_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_A001.test_case_general_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="XCB_API" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,11 +188,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_A014.test_case_1&quot;" />
+      <option name="_new_target" value="&quot;test_A001.test_case_general_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_A017.test_case_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_A010.test_case_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="XCB_API" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -189,7 +203,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_A017.test_case_1&quot;" />
+      <option name="_new_target" value="&quot;test_A010.test_case_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -225,19 +239,19 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.pytest in test_comment.py" />
-      <item itemvalue="Python tests.pytest for test_A014.test_case_1" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.sqlclient" />
-      <item itemvalue="Python tests.pytest for test_A017.test_case_1" />
       <item itemvalue="Python tests.pytest for test_A018.test_case_1" />
+      <item itemvalue="Python tests.pytest for test_A001.test_case_general_1" />
+      <item itemvalue="Python tests.pytest for test_A010.test_case_1" />
+      <item itemvalue="Python.esclient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_A018.test_case_1" />
-        <item itemvalue="Python tests.pytest for test_A014.test_case_1" />
-        <item itemvalue="Python tests.pytest for test_A017.test_case_1" />
-        <item itemvalue="Python.sqlclient" />
+        <item itemvalue="Python.esclient" />
+        <item itemvalue="Python tests.pytest for test_A010.test_case_1" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.pytest for test_A001.test_case_general_1" />
+        <item itemvalue="Python tests.pytest for test_A018.test_case_1" />
       </list>
     </recent_temporary>
   </component>
@@ -287,46 +301,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1590563175759" />
-    <state width="1345" height="299" key="GridCell.Tab.0.bottom" timestamp="1590572930115">
+    <state width="1345" height="299" key="GridCell.Tab.0.bottom" timestamp="1590659797896">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="299" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1590572930115" />
-    <state width="1345" height="299" key="GridCell.Tab.0.center" timestamp="1590572930115">
+    <state width="1345" height="299" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1590659797896" />
+    <state width="1345" height="299" key="GridCell.Tab.0.center" timestamp="1590659797896">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="299" key="GridCell.Tab.0.center/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1590572930115" />
-    <state width="1345" height="299" key="GridCell.Tab.0.left" timestamp="1590572930115">
+    <state width="1345" height="299" key="GridCell.Tab.0.center/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1590659797896" />
+    <state width="1345" height="299" key="GridCell.Tab.0.left" timestamp="1590659797896">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="299" key="GridCell.Tab.0.left/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1590572930115" />
-    <state width="1345" height="299" key="GridCell.Tab.0.right" timestamp="1590572930115">
+    <state width="1345" height="299" key="GridCell.Tab.0.left/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1590659797896" />
+    <state width="1345" height="299" key="GridCell.Tab.0.right" timestamp="1590659797896">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="299" key="GridCell.Tab.0.right/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1590572930115" />
-    <state width="1345" height="413" key="GridCell.Tab.1.bottom" timestamp="1590551406135">
+    <state width="1345" height="299" key="GridCell.Tab.0.right/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1590659797896" />
+    <state width="1345" height="413" key="GridCell.Tab.1.bottom" timestamp="1590657645494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="413" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1590551406135" />
-    <state width="1345" height="413" key="GridCell.Tab.1.center" timestamp="1590551406135">
+    <state width="1345" height="413" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1590657645494" />
+    <state width="1345" height="413" key="GridCell.Tab.1.center" timestamp="1590657645494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="413" key="GridCell.Tab.1.center/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1590551406135" />
-    <state width="1345" height="413" key="GridCell.Tab.1.left" timestamp="1590551406135">
+    <state width="1345" height="413" key="GridCell.Tab.1.center/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1590657645494" />
+    <state width="1345" height="413" key="GridCell.Tab.1.left" timestamp="1590657645494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="413" key="GridCell.Tab.1.left/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1590551406135" />
-    <state width="1345" height="413" key="GridCell.Tab.1.right" timestamp="1590551406135">
+    <state width="1345" height="413" key="GridCell.Tab.1.left/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1590657645494" />
+    <state width="1345" height="413" key="GridCell.Tab.1.right" timestamp="1590657645494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="413" key="GridCell.Tab.1.right/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1590551406135" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1589176631234">
+    <state width="1345" height="413" key="GridCell.Tab.1.right/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1590657645494" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1590655296147">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589176631234" />
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1590655296147" />
     <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1589176810517">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1589176810517" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1590635053314">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.-312.1920.1040@0.0.1366.728" timestamp="1590635053314" />
     <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1590544069487">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

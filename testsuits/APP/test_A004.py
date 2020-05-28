@@ -9,7 +9,7 @@ api = '/api/v1.0/order/pay'
 api_name = '004-支付订单'
 xcb_request = XCBRequest('app')
 
-
+'''
 @allure.feature('订单')
 @allure.story(api_name)
 @allure.title('支付订单')
@@ -28,3 +28,4 @@ def test_case_1(ordernew_type0):
     resp = xcb_request.post(api, data=body,headers=headers)
 
     assert resp.code == 0
+'''

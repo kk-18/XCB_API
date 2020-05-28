@@ -1,0 +1,61 @@
+{
+  "uid" : "bc73d99506499019",
+  "name" : "获取车辆列表",
+  "fullName" : "testsuits.APP.test_A017#test_case_1",
+  "historyId" : "4afd07e2b7164b32463574ef2172b29b",
+  "time" : {
+    "start" : 1590635061121,
+    "stop" : 1590635061393,
+    "duration" : 272
+  },
+  "description" : "\n    用例描述：用户添加的车辆列表\n    ",
+  "descriptionHtml" : "<pre><code>用例描述：用户添加的车辆列表\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "017-获取车辆列表"
+  }, {
+    "name" : "feature",
+    "value" : "我的"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testsuits.APP"
+  }, {
+    "name" : "suite",
+    "value" : "test_A017"
+  }, {
+    "name" : "host",
+    "value" : "AutocareAi-PC"
+  }, {
+    "name" : "thread",
+    "value" : "10844-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testsuits.APP.test_A017"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc73d99506499019.json",
+  "parameterValues" : [ ]
+}

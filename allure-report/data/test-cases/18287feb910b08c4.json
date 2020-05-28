@@ -1,0 +1,61 @@
+{
+  "uid" : "18287feb910b08c4",
+  "name" : "普通加车--必录项",
+  "fullName" : "testsuits.APP.test_A018#test_case_1",
+  "historyId" : "e48cf100b1094521152e74f0abbf7da7",
+  "time" : {
+    "start" : 1590635061404,
+    "stop" : 1590635065672,
+    "duration" : 4268
+  },
+  "description" : "\n    用例描述：仅必录项---返回车系车款信息\n    ",
+  "descriptionHtml" : "<pre><code>用例描述：仅必录项---返回车系车款信息\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "018-新增常用车辆"
+  }, {
+    "name" : "feature",
+    "value" : "我的"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testsuits.APP"
+  }, {
+    "name" : "suite",
+    "value" : "test_A018"
+  }, {
+    "name" : "host",
+    "value" : "AutocareAi-PC"
+  }, {
+    "name" : "thread",
+    "value" : "10844-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testsuits.APP.test_A018"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "18287feb910b08c4.json",
+  "parameterValues" : [ ]
+}

@@ -7,7 +7,7 @@
       "name" : "AssertionError: assert 0 == 1",
       "children" : [ {
         "name" : "门店评分计分规则",
-        "uid" : "a22c728e1aa976ab",
+        "uid" : "fba1a3ace6525f0d",
         "parentUid" : "4aa308f7dbecae29a058295957a40c45",
         "status" : "failed",
         "time" : {
@@ -21,91 +21,95 @@
       } ],
       "uid" : "4aa308f7dbecae29a058295957a40c45"
     }, {
-      "name" : "AssertionError: assert 20302 == 0\n +  where 20302 = <utils.xcb_req.XCBResponse object at 0x044028B0>.code",
+      "name" : "AssertionError: assert 20302 == 0\n +  where 20302 = <utils.xcb_req.XCBResponse object at 0x04BF98F8>.code",
       "children" : [ {
         "name" : "评论新增---仅点星",
-        "uid" : "dd0a2655c02095b3",
-        "parentUid" : "17332888a2c16f9b38d826936f9c39f7",
+        "uid" : "4e5b5a159cf8ee34",
+        "parentUid" : "836ea4b3b4de48de6f46b531d39b010f",
         "status" : "failed",
         "time" : {
-          "start" : 1590561182644,
-          "stop" : 1590561182959,
-          "duration" : 315
+          "start" : 1590635053467,
+          "stop" : 1590635053738,
+          "duration" : 271
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "17332888a2c16f9b38d826936f9c39f7"
+      "uid" : "836ea4b3b4de48de6f46b531d39b010f"
     }, {
-      "name" : "AssertionError: assert 10010 == 0\n +  where 10010 = <utils.xcb_req.XCBResponse object at 0x04419340>.code",
+      "name" : "AssertionError: assert 10010 == 0\n +  where 10010 = <utils.xcb_req.XCBResponse object at 0x04BE1808>.code",
       "children" : [ {
         "name" : "支付订单",
-        "uid" : "b54d8a6735164c90",
-        "parentUid" : "8fab7da55c41baee535c06d40cd87d23",
+        "uid" : "548ca1c1629607e0",
+        "parentUid" : "457607213416dde42a7d3da47469b36b",
         "status" : "failed",
         "time" : {
-          "start" : 1590561185808,
-          "stop" : 1590561186083,
+          "start" : 1590635056263,
+          "stop" : 1590635056555,
+          "duration" : 292
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "457607213416dde42a7d3da47469b36b"
+    }, {
+      "name" : "AssertionError: assert 10003 == 0\n +  where 10003 = <utils.xcb_req.XCBResponse object at 0x04C04340>.code",
+      "children" : [ {
+        "name" : "门店下服务信息",
+        "uid" : "e035d5b64698e1d6",
+        "parentUid" : "b4865633fcaf1e766560b293de5eaab7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590635058103,
+          "stop" : 1590635058396,
+          "duration" : 293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b4865633fcaf1e766560b293de5eaab7"
+    }, {
+      "name" : "AssertionError: assert 20123 == 0\n +  where 20123 = <utils.xcb_req.XCBResponse object at 0x04C045F8>.code",
+      "children" : [ {
+        "name" : "托管待支付订单存钥匙开箱",
+        "uid" : "add795606c041e77",
+        "parentUid" : "cc91843f4009ca5d433adfec47b0e105",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590635059134,
+          "stop" : 1590635059394,
+          "duration" : 260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cc91843f4009ca5d433adfec47b0e105"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'XCBResponse' object has no attribute 'data'",
+      "children" : [ {
+        "name" : "行驶证加车--必录项",
+        "uid" : "44409d25168061ba",
+        "parentUid" : "15abfa3ab05d5e4a940328389080f759",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590635065678,
+          "stop" : 1590635065953,
           "duration" : 275
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "8fab7da55c41baee535c06d40cd87d23"
-    }, {
-      "name" : "AssertionError: assert 10003 == 0\n +  where 10003 = <utils.xcb_req.XCBResponse object at 0x04419718>.code",
-      "children" : [ {
-        "name" : "门店下服务信息",
-        "uid" : "a89a94c61f1a3209",
-        "parentUid" : "def3e4c856037fafff5ebb038a986f84",
-        "status" : "failed",
-        "time" : {
-          "start" : 1590561187582,
-          "stop" : 1590561187824,
-          "duration" : 242
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "def3e4c856037fafff5ebb038a986f84"
-    }, {
-      "name" : "AssertionError: assert 20123 == 0\n +  where 20123 = <utils.xcb_req.XCBResponse object at 0x04419DC0>.code",
-      "children" : [ {
-        "name" : "托管待支付订单存钥匙开箱",
-        "uid" : "3d4bfd02b71cf9e6",
-        "parentUid" : "45d97d9a62ffe887298955f7f60964f9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1590561188452,
-          "stop" : 1590561188731,
-          "duration" : 279
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "45d97d9a62ffe887298955f7f60964f9"
-    }, {
-      "name" : "AssertionError: assert list in {'sid': 69, 'sn': 'test123', 'type': 1}",
-      "children" : [ {
-        "name" : "扫码开箱--多个订单",
-        "uid" : "61494004d7ea13dd",
-        "parentUid" : "ae4d45ee080042da29612a575c7ffbe8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1590561189444,
-          "stop" : 1590561189707,
-          "duration" : 263
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "ae4d45ee080042da29612a575c7ffbe8"
+      "uid" : "15abfa3ab05d5e4a940328389080f759"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

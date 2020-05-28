@@ -1,0 +1,93 @@
+{
+  "uid" : "b1a8ff3a0fbd93d0",
+  "name" : "评论分类展示--全部",
+  "fullName" : "testsuits.APP.shop_fistpage.test_comment#test_case_general_1",
+  "historyId" : "4c4b5d519efb5f126058f2a77388d04b",
+  "time" : {
+    "start" : 1589176337379,
+    "stop" : 1589176337709,
+    "duration" : 330
+  },
+  "description" : "\n    用例描述：全部评论\n    ",
+  "descriptionHtml" : "<pre><code>用例描述：全部评论\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "门店--首页"
+  }, {
+    "name" : "story",
+    "value" : "门店评论"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testsuits.APP.shop_fistpage"
+  }, {
+    "name" : "suite",
+    "value" : "test_comment"
+  }, {
+    "name" : "host",
+    "value" : "AutocareAi-PC"
+  }, {
+    "name" : "thread",
+    "value" : "13132-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testsuits.APP.shop_fistpage.test_comment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8f4a5badf9230912",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589176156392,
+        "stop" : 1589176156660,
+        "duration" : 268
+      }
+    }, {
+      "uid" : "8b61a6d820b1fc65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589169915316,
+        "stop" : 1589169915619,
+        "duration" : 303
+      }
+    }, {
+      "uid" : "67644e1c1d5c5cf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589169438148,
+        "stop" : 1589169438411,
+        "duration" : 263
+      }
+    }, {
+      "uid" : "8ab1b572262c9678",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589169166786,
+        "stop" : 1589169167055,
+        "duration" : 269
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b1a8ff3a0fbd93d0.json",
+  "parameterValues" : [ ]
+}

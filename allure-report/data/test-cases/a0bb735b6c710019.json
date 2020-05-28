@@ -1,0 +1,69 @@
+{
+  "uid" : "a0bb735b6c710019",
+  "name" : "门店下服务信息",
+  "fullName" : "testsuits.APP.test_A009#test_case_1",
+  "historyId" : "00841fb7e83ded34e2d059b9f413a914",
+  "time" : {
+    "start" : 1590635057758,
+    "stop" : 1590635058093,
+    "duration" : 335
+  },
+  "description" : "\n    用例描述：店铺列表\n    ",
+  "descriptionHtml" : "<pre><code>用例描述：店铺列表\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "009-获取店铺列表"
+  }, {
+    "name" : "feature",
+    "value" : "门店首页"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testsuits.APP"
+  }, {
+    "name" : "suite",
+    "value" : "test_A009"
+  }, {
+    "name" : "host",
+    "value" : "AutocareAi-PC"
+  }, {
+    "name" : "thread",
+    "value" : "10844-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testsuits.APP.test_A009"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "581d31604124b912",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590561187286,
+        "stop" : 1590561187578,
+        "duration" : 292
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a0bb735b6c710019.json",
+  "parameterValues" : [ ]
+}

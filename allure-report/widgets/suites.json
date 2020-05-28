@@ -4,12 +4,12 @@
     "uid" : "da97ef3a6c26d297ef6b1cc484684358",
     "name" : "testsuits.APP",
     "statistic" : {
-      "failed" : 5,
-      "broken" : 0,
+      "failed" : 4,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 19,
+      "passed" : 22,
       "unknown" : 0,
-      "total" : 24
+      "total" : 27
     }
   }, {
     "uid" : "313328d5bdd54a5a86d419839c4be79a",
