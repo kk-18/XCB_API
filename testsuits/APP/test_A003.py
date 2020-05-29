@@ -2,7 +2,7 @@ import allure
 import time
 
 from utils.xcb_req import XCBRequest
-from const import check_level
+
 
 
 
@@ -20,12 +20,12 @@ end_stamp = (cur_time - (cur_time % (24*3600))) +(28*3600)
 @allure.title('新增订单--托管养车必录项')
 
 
-def test_case_general_1():
+def test_case_general_1(get_app_token):
     """
     用例描述：基本必录项全录入
     """
     headers={}
-    headers["token"] = check_level.TOKEN_APP
+    headers["token"] =get_app_token
 
     body ={
           "addr": "四川省成都市锦江区秀丽东方生态文化景区",
@@ -57,7 +57,7 @@ def test_case_general_1():
 @allure.story(api_name)
 @allure.title('新增订单--预约到店必录项')
 
-def test_case_general_2():
+def test_case_general_2(get_app_token):
     """
     用例描述：基本必录项全录入
     """
@@ -65,7 +65,7 @@ def test_case_general_2():
 
 
     headers={}
-    headers["token"] = check_level.TOKEN_APP
+    headers["token"] = get_app_token
 
     body ={
           "amount": 1,
@@ -97,7 +97,7 @@ def test_case_general_2():
 @allure.story(api_name)
 @allure.title('新增订单--总金额错误')
 
-def test_case_general_3():
+def test_case_general_3(get_app_token):
     """
     用例描述：总金额与服务项金额总和不等
     """
@@ -105,7 +105,7 @@ def test_case_general_3():
 
 
     headers={}
-    headers["token"] = check_level.TOKEN_APP
+    headers["token"] = get_app_token
 
     body = {
         "amount": 0,
@@ -134,7 +134,7 @@ def test_case_general_3():
 @allure.story(api_name)
 @allure.title('新增订单--联系人电话为空')
 
-def test_case_general_4():
+def test_case_general_4(get_app_token):
     """
     用例描述：用户联系电话为空
     """
@@ -142,7 +142,7 @@ def test_case_general_4():
 
 
     headers={}
-    headers["token"] = check_level.TOKEN_APP
+    headers["token"] = get_app_token
 
     body = {
         "amount": 0,
@@ -166,12 +166,48 @@ def test_case_general_4():
 
     assert resp.code == 10003
 
+@allure.feature('订单')
+@allure.story(api_name)
+@allure.title('新增订单--联系人电话格式错误--非11位数字')
+
+def test_case_general_5(get_app_token):
+    """
+    用例描述：用户联系电话格式错误
+    """
+
+
+
+    headers={}
+    headers["token"] = get_app_token
+
+    body = {
+        "amount": 0,
+        "c_name": "深云智能",
+        "cid": 63,
+        "name": "测试-1",
+        # "parking_type": 0,
+        "plate_no": "川A1123B",
+        "phone": "184082511934",
+        "services": [
+            {
+                "num": 1,
+                "price_id": 140
+            }
+        ],
+        "shop": "深云智能·银泰城店",
+        "sid": 69,
+        "type": 0
+    }
+
+    resp = xcb_request.post(api, data=body,headers=headers)
+
+    assert resp.code == 10003
 
 @allure.feature('订单')
 @allure.story(api_name)
 @allure.title('新增订单--车牌号为空')
 
-def test_case_general_5():
+def test_case_general_6(get_app_token):
     """
     用例描述：用户车牌号为空
     """
@@ -179,7 +215,7 @@ def test_case_general_5():
 
 
     headers={}
-    headers["token"] = check_level.TOKEN_APP
+    headers["token"] = get_app_token
 
     body = {
         "amount": 0,

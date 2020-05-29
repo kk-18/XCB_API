@@ -13,8 +13,3 @@ class SQLclient:
         #关闭数据库连接
         conn.close()
         return data
-sql="""
- select id from db_xcb.t_order where uid=22
-"""
-sss=SQLclient().sql_client(sql)
-print(sss)

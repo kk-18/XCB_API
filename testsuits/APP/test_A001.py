@@ -1,7 +1,7 @@
 import allure
 
 from utils.xcb_req import XCBRequest
-from const import check_level
+
 
 
 api = '/api/v1.0/comment'
@@ -12,12 +12,12 @@ xcb_request = XCBRequest('app')
 @allure.story(api_name)
 @allure.title('评论分类展示--全部')
 
-def test_case_general_1():
+def test_case_general_1(get_app_token):
     """
     用例描述：全部评论
     """
     headers={}
-    headers["token"] = check_level.TOKEN_APP
+    headers["token"] = get_app_token
 
     data ={
         "sid": 69,
@@ -31,12 +31,12 @@ def test_case_general_1():
 @allure.feature('门店--首页')
 @allure.story(api_name)
 @allure.title('评论分类展示--好评')
-def test_case_general_2():
+def test_case_general_2(get_app_token):
     """
     用例描述：好评
     """
     headers={}
-    headers["token"] = check_level.TOKEN_APP
+    headers["token"] = get_app_token
 
     data ={
         "sid": 69,
@@ -54,12 +54,12 @@ def test_case_general_2():
 @allure.feature('门店--首页')
 @allure.story(api_name)
 @allure.title('评论分类展示--差评')
-def test_case_general_3():
+def test_case_general_3(get_app_token):
     """
     用例描述：差评
     """
     headers={}
-    headers["token"] = check_level.TOKEN_APP
+    headers["token"] =get_app_token
 
     data ={
         "sid": 69,
@@ -77,12 +77,12 @@ def test_case_general_3():
 @allure.feature('门店--首页')
 @allure.story(api_name)
 @allure.title('评论分类展示--有图')
-def test_case_general_4():
+def test_case_general_4(get_app_token):
     """
     用例描述：有图
     """
     headers={}
-    headers["token"] = check_level.TOKEN_APP
+    headers["token"] =get_app_token
 
     data ={
         "sid": 69,
@@ -123,12 +123,12 @@ def test_case_general_5():
 @allure.feature('门店--首页')
 @allure.story(api_name)
 @allure.title('门店评论展示顺序规则')
-def test_case_general_6():
+def test_case_general_6(get_app_token):
     """
     用例描述： 用户点评时间倒序
     """
     headers={}
-    headers["token"] = check_level.TOKEN_APP
+    headers["token"] = get_app_token
 
     data ={
         "sid": 69,
