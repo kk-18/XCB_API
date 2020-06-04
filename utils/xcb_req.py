@@ -13,7 +13,7 @@ class XCBResponse:
         self.msg = j['message']
         if self.code == 0 and 'data' in j:
             self.data = j['data']
-            #self.data = json.loads(self.data)
+#            self.data = json.loads(self.data)
 
 
 class XCBRequest:

@@ -22,12 +22,12 @@ def get_app_token():
 @pytest.fixture(scope='session')
 def get_cabinet_token():
     xcb_request = XCBRequest('cabinet')
-    data={
+    body={
         'sid':69,
         'sa_no':'test123'
     }
     api = '/api/v1.0/token'
-    resp = xcb_request.get(api, data=data)
+    resp = xcb_request.get(api, data=body)
 
     return resp.data["token"]
 
