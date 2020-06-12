@@ -1,6 +1,5 @@
 import json
 import requests
-from typing import Union  # 支持函数传参或返值多种类型
 
 from setting import ENVDICT
 

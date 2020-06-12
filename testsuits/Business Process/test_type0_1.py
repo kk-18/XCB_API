@@ -4,15 +4,6 @@ from utils.xcb_req import XCBRequest
 from utils.sqlclient import SQLclient
 from utils.esclient import ESclient
 
-
-def test_get_cabinet_token():
-    xcb_request = XCBRequest('cabinet')
-    data={'sid':69,'sa_no':'test123' }
-    apii = '/api/v1.0/token'
-    resp = xcb_request.get(apii, data=data,headers=None)
-    print(resp.url)
-
-    return resp.data["token"]
 @allure.feature("业务流程")
 @allure.story("托管养车-成功案例")
 @allure.title("测试用例名称：流程性的用例，添加测试步骤")
@@ -47,25 +38,27 @@ def test_add_goods_and_buy(get_app_token,get_cabinet_token):
         }
 
         resp_1 = XCBRequest('app').post(api_1, data=body, headers=headers)
+        print("用户下单")
 
     with allure.step("step2：存钥匙"):
+
         api_2 = '/api/v1/cabinet/save_vcode'
         headers={
-            'sid':69,
-            'sa_no':'test_123',
-            'token':get_cabinet_token
+            'sid': '69',
+            'sa_no': 'test123',
+            'token': get_cabinet_token
         }
 
         body={
             "vcode": resp_1.data['vcode']
         }
-
         resp_2 = XCBRequest('cabinet').put(api_2, data=body, headers=headers)
+
         #调用接口关门
         api_2_2='/api/v1/cabinet/close'
         headers = {
-            'sid': 69,
-            'sa_no': 'test_123',
+            'sid': '69',
+            'sa_no': 'test123',
             'token': get_cabinet_token
         }
 
@@ -74,7 +67,7 @@ def test_add_goods_and_buy(get_app_token,get_cabinet_token):
         }
 
         resp_2_2 = XCBRequest('cabinet').put(api_2_2, data=body, headers=headers)
-
+        print("用户存钥匙")
     with allure.step("step3：门店接单"):
         api_3 = '/api/v1/order/receiving'
 
@@ -89,52 +82,55 @@ def test_add_goods_and_buy(get_app_token,get_cabinet_token):
         }
 
         resp3 = XCBRequest('middle').put(api_3, data=body)
+        print("门店接单")
 
     with allure.step("step4：店员取钥匙"):
         sql = '''
                        select message from db_xcb.t_order_item where order_id=%s and  status=20
-                       '''
-        message = SQLclient().sql_client(sql,resp_1.data['order_id'])
+                       ''' % resp_1.data['order_id']
+
+        message = SQLclient().sql_client(sql)
+        api_4='/api/v1/cabinet/fetch_vcode'
         headers = {
-            'sid': 69,
-            'sa_no': 'test_123',
+            'sid': '69',
+            'sa_no': 'test123',
             'token': get_cabinet_token
         }
 
+        f_key=(eval(message[0]))['f_key']
         body = {
-            "vcode": message['f_key']
+            'vcode': f_key
         }
 
-        resp_4 = XCBRequest('cabinet').put(api_2, data=body, headers=headers)
+        resp_4 = XCBRequest('cabinet').put(api_4, data=body, headers=headers)
         # 调用接口关门
         headers = {
-            'sid': 69,
-            'sa_no': 'test_123',
+            'sid': '69',
+            'sa_no': 'test123',
             'token': get_cabinet_token
         }
 
         body = {
             "key_no": resp_4.data['key_no']
         }
-
         resp_4_2 = XCBRequest('cabinet').put(api_2_2, data=body, headers=headers)
-
+        print("店员取钥匙")
     with allure.step("step5：店员存钥匙"):
         headers = {
-            'sid': 69,
-            'sa_no': 'test_123',
+            'sid': '69',
+            'sa_no': 'test123',
             'token': get_cabinet_token
         }
-
+        s_key=(eval(message[0]))['s_key']
         body = {
-            "vcode": message['s_key']
+            "vcode": s_key
         }
 
         resp_5 = XCBRequest('cabinet').put(api_2, data=body, headers=headers)
         # 调用接口关门
         headers = {
-            'sid': 69,
-            'sa_no': 'test_123',
+            'sid': '69',
+            'sa_no': 'test123',
             'token': get_cabinet_token
         }
 
@@ -148,12 +144,8 @@ def test_add_goods_and_buy(get_app_token,get_cabinet_token):
         """
             修改mysql和ES
            """
-        sql1 = '''
-               select id from db_xcb.t_order where uid=27 and  service_type=1 and status=40 and pay_status =0
-               '''
-        order_id = SQLclient().sql_client(sql1)
-        sql2 = "update db_xcb.t_order id set pay_status=0  where id=%s"
-        sql_result = SQLclient().sql_client(sql2, resp_1.data['order_id'])
+        sql = "update db_xcb.t_order id set pay_status=1   where id=%s" % resp_1.data['order_id']
+        sql_result = SQLclient().sql_client(sql)
         index = 'xcb-order.test.order'
         body = {
             "script": {
@@ -175,38 +167,35 @@ def test_add_goods_and_buy(get_app_token,get_cabinet_token):
         }
         es_result = ESclient().update(index=index, body=body)
     with allure.step("step7：用户取回钥匙"):
-        sql = '''
-                               select message from db_xcb.t_order_item where order_id=%s and  status=40
-                               '''
-        message_7 = SQLclient().sql_client(sql, resp_1.data['order_id'])
+        sql = "select message from db_xcb.t_order_item where order_id=%s and  status=40" % resp_1.data['order_id']
+
+        message_7 = SQLclient().sql_client(sql)
         headers = {
-            'sid': 69,
-            'sa_no': 'test_123',
+            'sid': '69',
+            'sa_no': 'test123',
             'token': get_cabinet_token
         }
-
         body = {
-            "vcode": message['key']
+            "vcode": (eval(message_7[0]))['key']
         }
 
-        resp_7 = XCBRequest('cabinet').put(api_2, data=body, headers=headers)
+        resp_7 = XCBRequest('cabinet').put(api_4, data=body, headers=headers)
         # 调用接口关门
         headers = {
-            'sid': 69,
-            'sa_no': 'test_123',
+            'sid': '69',
+            'sa_no': 'test123',
             'token': get_cabinet_token
         }
-
         body = {
-            "key_no": resp_7.data['key_no']
+            "key_no": (eval(message_7[0]))['key_no']
         }
-
+        print(body)
         resp_7_2 = XCBRequest('cabinet').put(api_2_2, data=body, headers=headers)
 
 
     with allure.step("断言"):
-        sql = '''
-            select status from db_xcb.t_order where order_id=%s 
-         '''
-        message_a = SQLclient().sql_client(sql, resp_1.data['order_id'])
-        assert message_a== 50
+        sql ="select status from db_xcb.t_order where id=%s " % resp_1.data['order_id']
+
+        message_s = SQLclient().sql_client(sql)
+        print(message_s[0])
+        assert message_s[0]== 50

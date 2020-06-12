@@ -8,6 +8,8 @@ class SQLclient:
         cursor=conn.cursor() #游标对象用于执行查询和获取结果
         #使用execute()方法执行sql
         cursor.execute(sql)
+        # 数据库里增、删、改的时候，必须要进行提交，否则插入的数据不生效
+        conn.commit()
         #使用fetchone()方法获取单条数据
         data=cursor.fetchone()
         #关闭数据库连接

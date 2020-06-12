@@ -26,7 +26,7 @@ def get_cabinet_token():
         'sid':69,
         'sa_no':'test123'
     }
-    api = '/api/v1.0/token'
+    api = '/api/v1/token'
     resp = xcb_request.get(api, data=body)
 
     return resp.data["token"]
